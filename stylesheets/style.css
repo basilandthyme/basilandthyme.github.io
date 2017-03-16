@@ -1,0 +1,93 @@
+/* line 4, ../sass/style.scss */
+body {
+  margin: 0;
+  text-align: center;
+}
+/* line 8, ../sass/style.scss */
+body h1, body h2, body h3, body h4, body h5, body h6, body a, body p {
+  font-family: "lora";
+  font-weight: 400;
+  color: #181818;
+}
+/* line 14, ../sass/style.scss */
+body a {
+  transition: 0.2s color ease-in;
+  text-decoration: none;
+}
+/* line 19, ../sass/style.scss */
+body a:hover {
+  text-decoration: none;
+  color: #646464;
+}
+
+/* line 26, ../sass/style.scss */
+header.site-header {
+  padding-top: 40px;
+}
+
+/* line 31, ../sass/style.scss */
+.site-title {
+  font-size: 1.8em;
+  letter-spacing: 1px;
+}
+
+/* line 36, ../sass/style.scss */
+.tagline {
+  margin: 20px;
+  margin-top: 5px;
+  font-size: 1em;
+  color: #646464;
+  font-style: italic;
+}
+
+/* line 44, ../sass/style.scss */
+.main-navigation {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+/* line 49, ../sass/style.scss */
+.main-navigation a {
+  display: inline-block;
+  min-width: 100px;
+  border-right: 1px solid #646464;
+}
+/* line 55, ../sass/style.scss */
+.main-navigation a:last-child {
+  border-right: 0;
+}
+
+/* line 60, ../sass/style.scss */
+.page {
+  max-width: 1000px;
+  padding: 15px;
+  margin: auto;
+  text-align: left;
+  border-top: 1px solid #181818;
+  border-bottom: 1px solid #181818;
+}
+
+/* line 69, ../sass/style.scss */
+.dictionary {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 75, ../sass/style.scss */
+.dictionary h4 {
+  font-size: 2em;
+}
+/* line 80, ../sass/style.scss */
+.dictionary ol li {
+  font-style: italic;
+}
+
+/* line 86, ../sass/style.scss */
+footer {
+  padding: 15px;
+}
+/* line 88, ../sass/style.scss */
+footer a {
+  padding: 5px;
+}
