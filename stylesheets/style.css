@@ -350,12 +350,12 @@ footer a {
 }
 /* line 353, ../sass/style.scss */
 .gallery {
-  padding: 50px;
   text-align: center;
 }
-/* line 357, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 .gallery .gallery-item {
-  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* line 360, ../sass/style.scss */
 .gallery .gallery-item .overlay, .gallery .gallery-item .image {

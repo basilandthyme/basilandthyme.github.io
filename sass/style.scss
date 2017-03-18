@@ -351,11 +351,11 @@ footer {
 }
 
 .gallery {
-	padding: 50px;
 	text-align: center;
 
 	.gallery-item {
-		padding: 25px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 
 		.overlay, .image {
 			height: 260px;
