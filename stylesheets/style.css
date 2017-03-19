@@ -397,18 +397,23 @@ footer a {
 }
 
 /* line 402, ../sass/style.scss */
+.text p {
+  text-align: left;
+}
+
+/* line 408, ../sass/style.scss */
 .graphics .overlay, .graphics .image {
   border-radius: 50%;
 }
 
-/* line 407, ../sass/style.scss */
+/* line 413, ../sass/style.scss */
 .writing.items {
   max-width: 900px;
   margin: auto;
   height: 500px;
   text-align: center;
 }
-/* line 413, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .writing.items img {
   max-width: 600px;
   margin: auto;
@@ -416,7 +421,7 @@ footer a {
   margin-bottom: 10px;
   width: 80vw;
 }
-/* line 421, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 .writing.items p {
   font-size: 1.1em;
 }
